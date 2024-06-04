@@ -1,10 +1,14 @@
 import { useState } from 'react'
-
+import Header from './Components/Header'
+import HomePage from './Components/HomePage'
+import Footer from './Components/Footer'
 function App() {
 
   return (
     <>
-      <h1 className='text-3xl text-green-500 text-center'>Rishabh</h1>
+      <Header />
+      <HomePage />
+      <Footer />
     </>
   )
 }
