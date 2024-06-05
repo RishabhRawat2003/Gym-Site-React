@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import Header from './Components/Header'
-import HomePage from './Components/HomePage'
 import Footer from './Components/Footer'
+import { Outlet } from 'react-router-dom'
 function App() {
 
   return (
     <>
       <Header />
-      <HomePage />
+      <Outlet />
       <Footer />
     </>
   )

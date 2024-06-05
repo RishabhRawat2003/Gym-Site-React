@@ -2,13 +2,27 @@ import React, { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { Provider } from 'react-redux'
-import store from './Store/Store.js'
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
+import About from './Components/About.jsx'
+import Contact from './Components/Contact.jsx'
+import Trainer from './Components/Trainer.jsx'
+import Classes from './Components/Classes.jsx'
+import HomePage from './Components/HomePage.jsx'
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='' element={<App/>}>
+      <Route path='/' element={<HomePage />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/contact' element={<Contact />} />
+      <Route path='/trainers' element={<Trainer />} />
+      <Route path='/classes' element={<Classes />} />
+    </Route>
+  )
+)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
+      <RouterProvider router={router} />
   </React.StrictMode>
 )
