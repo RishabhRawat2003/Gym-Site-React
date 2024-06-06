@@ -6,11 +6,11 @@ import Image2 from './Images/Classes/Classes6.jpg'
 import { GrCertificate } from "react-icons/gr";
 import { IoNutrition } from "react-icons/io5";
 import { IoIosMan } from "react-icons/io";
-import Trainers from './Trainers'
+import Trainers from './TrainersComponent'
 
 function About() {
     return (
-        <div className='h-auto w-full mx-auto mt-5' >
+        <div className='h-auto w-full mt-5' >
             <div className='w-[90%] h-auto relative mx-auto flex flex-col justify-center items-center'>
                 <img src={Cover1} alt="image" className='opacity-90 md:hidden' />
                 <img src={Cover} alt="image" className='opacity-90 hidden md:block' />
@@ -82,7 +82,7 @@ function About() {
                         <p className='text-sm font-bold xl:text-lg'>Expert Trainers</p>
                     </div>
                     <div className='flex flex-col justify-center items-center w-40 h-32 border-x-[1px] border-b-[1px] border-gray-400 md:w-44 md:h-36 xl:w-56 xl:h-48 2xl:w-60 2xl:h-52'>
-                        <p className='text-6xl font-bold'>25+</p>
+                        <p className='text-6xl font-bold'>25k</p>
                         <p className='text-sm font-bold xl:text-lg'>Instagram Followers</p>
                     </div>
                 </div>
