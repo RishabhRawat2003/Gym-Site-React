@@ -21,7 +21,7 @@ function Header() {
           <NavLink to='/trainers' className={({ isActive }) => `${isActive ? 'text-blue-500' : 'text-black'} cursor-pointer hover:text-blue-500`}>Trainers</NavLink>
           <NavLink to='/contact' className={({ isActive }) => `${isActive ? 'text-blue-500' : 'text-black'} cursor-pointer hover:text-blue-500`}>Contact</NavLink>
         </div>
-        <div className='p-2 px-4 bg-gray-300 lg:text-lg font-serif cursor-pointer'>Book Class</div>
+        <div className='p-2 px-4 bg-gray-300 hover:bg-gray-400 lg:text-lg font-serif cursor-pointer'>Book Class</div>
       </div>
       <div className={`${bars ? 'flex flex-col' : 'hidden' } absolute top-16 z-20 right-4 w-32 h-48 bg-gray-100 border-[1px] border-gray-400 rounded-md py-3 px-3 gap-3 sm:w-36 sm:h-56 sm:py-4 sm:justify-center sm:text-lg md:hidden`} >
         <NavLink to='/' onClick={()=>setBars(!bars)} className={({ isActive }) => `${isActive ? 'text-blue-500' : 'text-black'} cursor-pointer active:text-blue-500`}>Home</NavLink>

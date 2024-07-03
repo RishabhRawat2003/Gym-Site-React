@@ -16,6 +16,7 @@ import { FaHeart } from "react-icons/fa6";
 import { IoDiamondSharp } from "react-icons/io5";
 import Trainers from './TrainersComponent'
 import ClassesComponent from './ClassesComponent'
+import { NavLink } from 'react-router-dom'
 
 export default function HomePage() {
     function autoSlider() {
@@ -41,8 +42,8 @@ export default function HomePage() {
                         <p className='text-4xl text-white font-bold font-textFont xl:text-5xl'>Keep Your Body</p>
                         <p className='text-4xl text-white font-bold font-textFont xl:text-5xl'>Fit & Strong</p>
                         <div className='flex h-auto w-auto gap-4 sm:gap-7 mt-4'>
-                            <span className='p-2.5 px-4 font-textFont bg-[#A1F65E] cursor-pointer xl:text-lg xl:px-5'>Start Today</span>
-                            <span className='p-2.5 px-4 font-textFont border-2 border-white text-white cursor-pointer xl:text-lg xl:px-5'>About Me</span>
+                            <span className='p-2.5 px-4 font-textFont bg-[#A1F65E] active:scale-105 active:duration-100 md:hover:scale-105 md:hover:duration-100 cursor-pointer xl:text-lg xl:px-5'>Start Today</span>
+                            <NavLink to='/about' className='p-2.5 px-4 font-textFont border-2 border-white text-white active:scale-105 active:duration-100 md:hover:scale-105 md:hover:duration-100 cursor-pointer xl:text-lg xl:px-5'>About Me</NavLink>
                         </div>
                     </div>
                 </div>
@@ -52,7 +53,7 @@ export default function HomePage() {
                             <p className='tracking-widest text-blue-700 md:text-xl xl:text-2xl'>OUR FITNESS TRAINING</p>
                             <p className='font-bold text-lg font-mono md:text-xl xl:text-2xl'>Upcoming Classes</p>
                         </div>
-                        <div className='p-2 px-5 bg-black text-white hidden sm:block lg:p-3 lg:px-6 cursor-pointer'>More Class</div>
+                        <NavLink to='classes' className='p-2 px-5 bg-black text-white hidden sm:block lg:p-3 md:hover:text-black md:hover:bg-white md:hover:border-2 md:hover:border-black lg:px-6 cursor-pointer'>More Class</NavLink>
                     </div>
                     <ClassesComponent />
                 </div>
@@ -157,7 +158,7 @@ export default function HomePage() {
                         <p className='text-gray-800 text-xs w-full text-center font-textFont mt-2 lg:text-base'><span className='font-bold text-black'>50 Class</span> Times Available</p>
                         <p className='text-gray-800 text-xs w-full text-center font-textFont mt-2 lg:text-base'>20 Minutes of Invigorating Yoga</p>
                         <div className='w-full h-auto flex justify-center items-center mt-10 mb-5'>
-                            <span className='p-3 px-6 bg-black text-white cursor-pointer'>Get Started</span>
+                            <span className='p-3 px-6 bg-black text-white active:bg-gray-200  active:text-black md:hover:bg-gray-200  md:hover:text-black border-black border-2 cursor-pointer'>Get Started</span>
                         </div>
                     </div>
                     <div className='w-full h-auto flex flex-col bg-gray-200 sm:w-[30%] xl:w-[22%]'>
@@ -175,7 +176,7 @@ export default function HomePage() {
                         <p className='text-gray-800 text-xs w-full text-center font-textFont mt-2 lg:text-base'>One Full Month Free</p>
                         <p className='text-gray-800 text-xs w-full text-center font-textFont mt-2 lg:text-base'>First 25 Members Only</p>
                         <div className='w-full h-auto flex justify-center items-center mt-10 mb-5'>
-                            <span className='p-3 px-6 border-2 border-black cursor-pointer'>Get Started</span>
+                            <span className='p-3 px-6 border-2 active:bg-black active:text-white active:border-white md:hover:bg-black md:hover:text-white md:hover:border-white border-black cursor-pointer'>Get Started</span>
                         </div>
                     </div>
                     <div className='w-full h-auto flex flex-col bg-gray-200 sm:w-[30%] sm:h-[40%] xl:w-[22%]'>
@@ -190,7 +191,7 @@ export default function HomePage() {
                         <p className='text-gray-800 text-xs w-full text-center font-textFont mt-2 lg:text-base'><span className='font-bold text-black'>60 Class</span> Times Available</p>
                         <p className='text-gray-800 text-xs w-full text-center font-textFont mt-2 lg:text-base'>50 Minutes of Invigorating Yoga</p>
                         <div className='w-full h-auto flex justify-center items-center mt-10 mb-5'>
-                            <span className='p-3 px-6 bg-black text-white cursor-pointer'>Get Started</span>
+                            <span className='p-3 px-6 bg-black text-white active:bg-gray-200  active:text-black md:hover:bg-gray-200  md:hover:text-black border-black border-2  cursor-pointer'>Get Started</span>
                         </div>
                     </div>
                 </div>

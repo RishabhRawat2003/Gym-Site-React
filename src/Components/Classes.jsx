@@ -4,6 +4,7 @@ import ClassesComponent from './ClassesComponent'
 import Classes5 from './Images/Classes/Classes5.jpg'
 import Classes4 from './Images/Classes/Classes4.jpg'
 import Classes6 from './Images/Classes/Classes6.jpg'
+import { NavLink } from 'react-router-dom'
 
 function Classes() {
   return (
@@ -21,19 +22,19 @@ function Classes() {
             <img src={Classes5} alt="class1" />
             <p className='text-lg font-semibold font-textFont'>Yoga as Therapy</p>
             <p className='text-xs font-mono text-gray-700 lg:text-sm'>Yoga as a therapy offers a holistic approach to health and well-being, integrating physical postures, breathing exercises, and meditation to support the healing of various physical, mental, and emotional conditions.</p>
-            <p className='text-xs font-mono text-blue-700 lg:text-sm cursor-pointer'>Read More</p>
+            <p><NavLink to='/classes/yoga' className='text-xs font-mono text-blue-700 active:text-blue-900 active:underline active:underline-offset-4 md:hover:text-blue-900 md:hover:underline md:hover:underline-offset-4 lg:text-sm cursor-pointer'>Read More</NavLink></p>
           </div>
           <div className='w-[80%] h-auto flex flex-col gap-2 sm:w-[40%] md:w-[30%]'>
             <img src={Classes4} alt="class1" />
             <p className='text-lg font-semibold font-textFont'>Boxing</p>
             <p className='text-xs font-mono text-gray-700 lg:text-sm'>Boxing is a dynamic and physically demanding sport that combines strength, speed, agility, and strategy. It offers a full-body workout, improving cardiovascular health, muscle tone, and coordination.</p>
-            <p className='text-xs font-mono text-blue-700 lg:text-sm cursor-pointer'>Read More</p>
+            <p><NavLink to='/classes/boxing' className='text-xs font-mono text-blue-700 active:text-blue-900 active:underline active:underline-offset-4 md:hover:text-blue-900 md:hover:underline md:hover:underline-offset-4 lg:text-sm cursor-pointer'>Read More</NavLink></p>
           </div>
           <div className='w-[80%] h-auto flex flex-col gap-2 sm:w-[40%] md:w-[30%]'>
             <img src={Classes6} alt="class1" />
             <p className='text-lg font-semibold font-textFont'>Energy Dance</p>
             <p className='text-xs font-mono text-gray-700 lg:text-sm'>Energy dance is a vibrant and expressive form of movement that blends dance techniques with rhythmic patterns and dynamic motions to invigorate both body and spirit.</p>
-            <p className='text-xs font-mono text-blue-700 lg:text-sm cursor-pointer'>Read More</p>
+            <p><NavLink to='/classes/energyDance' className='text-xs font-mono text-blue-700 active:text-blue-900 active:underline active:underline-offset-4 md:hover:text-blue-900 md:hover:underline md:hover:underline-offset-4 lg:text-sm cursor-pointer'>Read More</NavLink></p>
           </div>
         </div>
       </div>
