@@ -23,22 +23,22 @@ function Footer() {
                 <div className='flex w-full mx-auto justify-around px-7 md:my-10 md:hidden lg:flex lg:justify-between'>
                     <div className='flex flex-col font-textFont'>
                         <span className='text-white font-bold text-lg lg:text-2xl'>ABOUT</span>
-                        <span className='text-gray-400 text-sm mt-4 cursor-pointer lg:text-lg'>About Us</span>
-                        <span className='text-gray-400 text-sm mt-1 cursor-pointer lg:text-lg'>Careers</span>
-                        <span className='text-gray-400 text-sm mt-1 cursor-pointer lg:text-lg'>Press</span>
-                        <span className='text-gray-400 text-sm mt-1 cursor-pointer lg:text-lg'>Blog</span>
+                        <span className='text-gray-400 text-sm mt-4 active:text-gray-100 md:hover:text-gray-100 cursor-pointer lg:text-lg'>About Us</span>
+                        <span className='text-gray-400 text-sm mt-1 active:text-gray-100 md:hover:text-gray-100 cursor-pointer lg:text-lg'>Careers</span>
+                        <span className='text-gray-400 text-sm mt-1 active:text-gray-100 md:hover:text-gray-100 cursor-pointer lg:text-lg'>Press</span>
+                        <span className='text-gray-400 text-sm mt-1 active:text-gray-100 md:hover:text-gray-100 cursor-pointer lg:text-lg'>Blog</span>
                     </div>
                     <div className='flex flex-col font-textFont'>
                         <span className='text-white font-bold text-lg lg:text-2xl'>Help</span>
-                        <span className='text-gray-400 text-sm mt-4 cursor-pointer lg:text-lg'>Contact Us</span>
-                        <span className='text-gray-400 text-sm mt-1 cursor-pointer lg:text-lg'>FAQ</span>
-                        <span className='text-gray-400 text-sm mt-1 cursor-pointer lg:text-lg'>Accessibility</span>
+                        <span className='text-gray-400 text-sm mt-4 active:text-gray-100 md:hover:text-gray-100 cursor-pointer lg:text-lg'>Contact Us</span>
+                        <span className='text-gray-400 text-sm mt-1 active:text-gray-100 md:hover:text-gray-100 cursor-pointer lg:text-lg'>FAQ</span>
+                        <span className='text-gray-400 text-sm mt-1 active:text-gray-100 md:hover:text-gray-100 cursor-pointer lg:text-lg'>Accessibility</span>
                     </div>
                 </div>
                 <div className='flex flex-col w-full my-7 px-7 gap-3'>
                     <p className='text-white text-xl font-bold font-textFont lg:text-2xl'>Newsletter</p>
                     <input type="text" placeholder='Enter Your Email' className='px-3 py-2 border-[1px] text-white bg-gray-700 border-gray-400 mt-5 xl:w-[80%]' />
-                    <div className='w-full h-auto mt-5'><span className='p-3 px-6 font-medium cursor-pointer bg-[#A1F65E] text-black'>Subscribe</span></div>
+                    <div className='w-full h-auto mt-5'><span className='p-3 px-6 font-medium cursor-pointer bg-[#A1F65E] active:bg-[#80c64a] md:hover:bg-[#80c64a] text-black'>Subscribe</span></div>
                     <p className='text-2xl text-white flex gap-2 my-4 xl:text-3xl'><FaInstagram /><FaFacebook /><FaTwitter /></p>
                     <hr className='text-white w-[95%] mx-auto' />
                 </div>

@@ -47,7 +47,7 @@ function About() {
                         <p className='tracking-widest text-[#A1F65E] sm:text-lg md:text-xl xl:text-2xl'>Values</p>
                         <p className='text-white font-bold text-xl sm:text-2xl md:text-3xl xl:text-4xl'>My core work values</p>
                     </div>
-                    <span className='p-2 px-4 bg-[#A1F65E] text-black cursor-pointer hidden sm:inline xl:p-3 xl:px-6'>Book a Class</span>
+                    <span className='p-2 px-4 bg-[#A1F65E] active:bg-[#80c64a] md:hover:bg-[#80c64a] text-black cursor-pointer hidden sm:inline xl:p-3 xl:px-6'>Book a Class</span>
                 </div>
                 <div className='w-[80%] flex flex-col mt-3 mb-20 gap-4 lg:flex-row'>
                     <div className='w-full h-auto flex flex-col bg-gray-500 items-center gap-2'>

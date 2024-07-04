@@ -23,7 +23,7 @@ function Aerobic() {
                 <p className='text-gray-700 text-sm'>Schedule : <span className='text-black font-bold'>Tuesday, Friday</span></p>
               </div>
               <div className='w-full h-auto mb-7'>
-                <span className='text-white bg-black text-sm p-3 px-4 cursor-pointer font-textFont sm:text-base md:text-sm xl:text-base'>Book a Class</span>
+                <span className='text-white bg-black text-sm p-3 active:bg-gray-700 md:hover:bg-gray-800 select-none px-4 cursor-pointer font-textFont sm:text-base md:text-sm xl:text-base'>Book a Class</span>
               </div>
             </div>
           </div>

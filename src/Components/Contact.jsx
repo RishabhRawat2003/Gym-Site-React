@@ -43,7 +43,7 @@ function Contact() {
           <input type="email" placeholder='Enter Your Email' className='bg-gray-200 outline-none px-4 py-2 border-[1px] border-gray-400 mt-3' />
           <input type="text" placeholder='Subject' className='bg-gray-200 outline-none px-4 py-2 border-[1px] border-gray-400 mt-3' />
           <textarea placeholder='Message' className='bg-gray-200 min-h-32 max-h-32 outline-none px-4 py-2 border-[1px] border-gray-400 mt-3'></textarea>
-          <div className='w-full h-auto mt-6'><span className='px-6 p-3 bg-black text-gray-200 font-semibold cursor-pointer'>Send Now</span></div>
+          <div className='w-full h-auto mt-6'><span className='px-6 p-3 bg-black text-gray-200 active:bg-gray-700 md:hover:bg-gray-800 select-none font-semibold cursor-pointer'>Send Now</span></div>
         </div>
       </div>
       <div className='w-full h-auto py-20 bg-[#524FF5] flex items-center justify-center'>
